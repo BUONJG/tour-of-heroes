@@ -42,3 +42,14 @@ npm start
 => this will start the server
 
 app is reachable at http://127.0.0.1:3000/
+
+# Tour of Heroes
+
+
+## Routing
+
+turn AppComponent into an application shell that only handles navigation.
+relocate the Heroes concerns within the current AppComponent to a separate HeroesComponent
+add routing
+create a new DashboardComponent
+tie the Dashboard into the navigation structure.
